@@ -10,14 +10,15 @@
     text-decoration: none;   
 }
 
-:root
-{
-    --main-color:#fd46fd
-}
-
-footer{
-    background-color: rgb(34, 34, 34);
-    height: auto;
-    bottom: 0;
+.container-fluid{
+    top: 0;
+    left: 0;
     width: 100%;
+    align-items: center;
+    box-shadow: 0 1px 4px hsl(0 4% 15% / 100%);
+    justify-content: space-between;
+}
+#bevasarlokocsi{
+    font-size: 1.8rem;
+    cursor: pointer;
 }
