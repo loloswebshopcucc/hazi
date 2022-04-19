@@ -16,7 +16,8 @@
 }
 
 footer{
-    position: fixed;
+    background-color: rgb(34, 34, 34);
+    height: auto;
     bottom: 0;
     width: 100%;
 }
